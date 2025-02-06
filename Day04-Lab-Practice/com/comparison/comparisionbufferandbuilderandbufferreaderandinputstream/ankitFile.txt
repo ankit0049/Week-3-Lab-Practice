@@ -1,0 +1,3 @@
+Why Does It Work in Aggregation but Not in Composition?
+In Composition, the contained object (part) is fully owned by the container. When the container is destroyed, the part is also destroyed.
+In Aggregation, the contained object (part) is independent. Even if the container is set to null, the part still exists in memory if it was referenced elsewhere.
